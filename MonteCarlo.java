@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter the number of needles: ");
         int needles = scanner.nextInt();
         double needlesInCirle = 0;
         for(int i = 0; i < needles; i++){
@@ -20,9 +21,9 @@ public class Main {
 
 /*
 input:
-100000000
+Please enter the number of needles: 2147483647
 
 output: 
-My PI: 3.14182868
+My PI: 3.1415938581999363
 Java's PI: 3.141592653589793
 */
